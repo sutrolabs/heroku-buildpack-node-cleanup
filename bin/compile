@@ -2,6 +2,6 @@
 
 BUILD_DIR=$1
 
-echo "-----> Deleting the node_modules folder..."
-rm -r "$BUILD_DIR/node_modules"
+echo "-----> Deleting the client/node_modules folder..."
+rm -r "$BUILD_DIR/client/node_modules"
 echo "       Done!"
